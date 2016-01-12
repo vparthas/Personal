@@ -179,3 +179,19 @@ body {
 #gplusImg:hover {
     background-image: url("../img/icons/Flat%20Minimalistic%20Squares/64x64%20PNG/googleplus.png");
 }
+
+#thisSite {
+    width: 128px;
+    height: 10px;
+    padding-top: 59px;
+    padding-bottom: 59px;
+
+    text-align: center;
+
+    background-color: whitesmoke;
+    color: #333333;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #437c90;
+}
