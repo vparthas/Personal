@@ -127,7 +127,8 @@ body {
     /*color: whitesmoke;*/
     color: #437c90;
 
-    font-family: "League Spartan", sans-serif;
+    /*font-family: "League Spartan", sans-serif;*/
+    font-family: "Courier New";
 }
 
 .pageOverlay a {
