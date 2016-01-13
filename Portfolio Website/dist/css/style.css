@@ -184,17 +184,20 @@ body {
 #thisSite {
     width: 128px;
     height: 10px;
-    padding-top: 59px;
-    padding-bottom: 59px;
+    padding-top: 54px;
+    padding-bottom: 64px;
 
     text-align: center;
 
     background-color: whitesmoke;
-    color: #333333;
+    color: #437c90;
 
     border-radius: 10px;
     border-style: solid;
     border-color: #437c90;
+
+    font-weight: bold;
+    font-family: "League Spartan", sans-serif;
 }
 
 #linkedinImg {
