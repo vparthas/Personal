@@ -150,6 +150,9 @@ body {
 
 .socialLink {
     margin-left: 10px;
+
+    height: 64px;
+    width: 64px;
 }
 
 #emailImg {
