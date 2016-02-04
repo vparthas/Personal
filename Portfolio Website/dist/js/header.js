@@ -24,7 +24,7 @@
 
         // create particles
         points = [];
-        var dots = (width * height) / 11000;
+        var dots = (width * height) / 13000;
         for(var i = 0; i < dots; i++) {
             var l = new Dot(Math.random()*width, Math.random() * height, Math.random() * 360, Math.random() * 10000 + 1000);
             points.push(l);
