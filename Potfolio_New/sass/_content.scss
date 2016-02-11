@@ -1,0 +1,32 @@
+@import "colors";
+@import "fonts";
+
+.content-wrapper {
+  position: absolute;
+  top: 87%;
+
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+
+  min-height: 12%;
+  z-index: 2;
+  background: $white;
+}
+
+.content {
+  font-family: $CourierNew;
+
+  h1 {
+    font-family: "League Spartan", sans-serif;
+    color: $white;
+    font-size: 2.5vw;
+    text-shadow:
+            -1px -1px 0 $accent-color,
+            1px -1px 0 $accent-color,
+            -1px 1px 0 $accent-color,
+            1px 1px 0 $accent-color,
+            0 0 0.3em $accent-color;
+  }
+}
