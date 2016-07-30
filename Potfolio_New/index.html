@@ -4,24 +4,17 @@
     <meta charset="UTF-8">
     <title>Varun Parthasarathy's Portfolio</title>
 
-    <link href="stylesheets/index.css" rel="stylesheet" type="text/css"/>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" href="stylesheets/animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 <div id="navBar" class="pure-menu pure-menu-horizontal pure-menu-fixed animated fadeInRight">
     <ul class="pure-menu-list">
+        <li class="pure-menu-item pure-menu-selected"><a id="projectsLink" class="pure-menu-link">Projects</a></li>
         <li class="pure-menu-item pure-menu-selected"><a id="aboutLink" class="pure-menu-link">About</a></li>
-        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-            <a href="#" id="menuLink2" class="pure-menu-link">Projects</a>
-            <ul class="pure-menu-children">
-                <li class="pure-menu-item"><a href="http://www.varunp.com/" class="pure-menu-link">varunp.com</a></li>
-                <li class="pure-menu-item"><a href="https://github.com/vparthas/Scientific-Calculator" target = "_blank"
-                                              class="pure-menu-link">Scientific Calculator</a></li>
-                <li class="pure-menu-item"><a class="not-active pure-menu-link">More coming soon!</a></li>
-            </ul>
-        </li>
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
             <a href="#" id="menuLink1" class="pure-menu-link">Contact</a>
             <ul class="pure-menu-children">
@@ -47,28 +40,59 @@
     <canvas id="demo-canvas"></canvas>
 </div>
 
-<div class="content-wrapper">
-    <div id="aboutDiv" class="content pure-g">
-        <div class="pure-u-1-1">
-            <h1>About Me</h1>
-            <p><b>Short Version:</b>
-                <br>I'm 18, I study computer science and statistics at UIUC, and I like to create cool stuff
-                (and learn while I do it).</p>
-            <p><b>Long Version:</b>
-                <br>I am a freshman at the University of Illinois at Urbana-Champaign majoring in Statistics & Computer Science.
-                I have a passion for computer science, fueled by my love of creating and problem-solving.
-                I am an experienced programmer proficient in numerous languages with professional experience in
-                the field of computer science, and I firmly believe that in order to further my understanding,
-                I must apply what I have learned both in and out of the classroom. As such, I have created this website
-                in order to display and document my experiences as I learn. Enjoy!</p>
+<div class="content-wrapper" id="contentTop">
+
+    <div id="contentDiv" class="content pure-g">
+
+        <div class="pure-u-1-1" id="projectsDiv">
+            <h1>Projects</h1>
         </div>
-        <!--<div class="pure-u-2-5">-->
-            <!--<div class="vignette"/>-->
-        <!--</div>-->
+
+        <div class="pure-img">
+
+            <a href="https://www.amazon.com/Varun-Parthasarathy-LockPad/dp/B01JC4CBKQ" target="_blank">
+                <img class="projectImage" src="img/projects/lockpad.png"/>
+            </a>
+
+        </div>
+
+        <div class="pure-img">
+
+            <a href="https://github.com/vparthas/Scientific-Calculator" target="_blank">
+                <img class="projectImage" src="img/projects/scicalc2.png"/>
+            </a>
+
+        </div>
+
+        <div class="pure-img">
+
+            <a href="https://github.com/vparthas/Portfolio-Website" target="_blank">
+                <img class="projectImage" src="img/projects/varunpcom2.png"/>
+            </a>
+
+        </div>
+
+        <div class="pure-u-1-1 spacer" ></div>
+
+        <div class="pure-u-1-1" id="aboutDiv">
+
+            <h1>About</h1>
+
+            <img src="img/about_cropped.png" id="aboutImage">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia velit sed sapien imperdiet, a consectetur risus feugiat. Aliquam erat volutpat. Ut vitae justo sed ex dapibus maximus. Etiam tristique odio at mi varius fermentum. Praesent at pellentesque tortor, nec vehicula nisi. Vestibulum vel maximus lacus. Mauris id mollis dolor. Vestibulum vitae scelerisque nisl. Nulla nisi eros, lacinia eget tortor in, fringilla egestas arcu. Curabitur eget sodales diam. Suspendisse dui risus, efficitur ac neque ac, mattis pharetra dui. Mauris faucibus elit consectetur urna auctor, in consequat neque auctor. Morbi nec velit massa. Sed vel justo gravida, mollis metus ac, gravida mauris.
+
+                Maecenas metus leo, viverra ut ornare vitae, condimentum eget ex. Donec eu metus eget ante lacinia semper. Nunc eu hendrerit neque, sit amet lobortis ipsum. Curabitur porta mauris velit, id ullamcorper massa varius eget. Cras pulvinar urna ligula, quis facilisis augue viverra hendrerit. Praesent arcu justo, bibendum in ex posuere, ornare cursus orci. Pellentesque feugiat, mi nec dictum mollis, ipsum tellus finibus urna, vel gravida velit purus eget neque. Morbi quis placerat lacus, non accumsan quam. Praesent vehicula tempus lectus vel vulputate. Curabitur interdum cursus neque, in tincidunt tortor imperdiet non. Ut feugiat justo vel feugiat dapibus. Duis aliquet, lectus ut porta sagittis, nisl nunc porta arcu, in finibus nunc turpis eget magna.
+
+                Sed consectetur ante purus, sit amet congue enim aliquet nec. In quis vehicula erat. Vestibulum id tempor ante. Aliquam leo eros, suscipit sed aliquet sed, lobortis quis dui. Nam aliquet imperdiet quam, a sagittis lectus. Nulla vel tempus dui. Quisque tristique semper nunc, et ultrices enim maximus viverra. Aenean quis libero commodo, porta mi id, sagittis nulla. Maecenas augue augue, blandit at cursus id, interdum sollicitudin lacus.
+
+                Nullam mollis neque sed ipsum efficitur, sed eleifend odio convallis. Pellentesque sit amet tellus nibh. Maecenas lacus sapien, pellentesque in ultricies eget, volutpat et augue. Nam ultrices purus et tellus aliquet, ut consectetur nibh malesuada. Aliquam egestas, dolor feugiat dapibus luctus, justo nulla dapibus magna, quis suscipit magna lorem eget ante. Sed nec ipsum et quam malesuada iaculis. In semper metus lectus, ac efficitur justo rutrum id. Nulla efficitur tristique interdum. Ut porta quam et tincidunt sagittis. Quisque sit amet gravida elit. Vivamus sem sem, semper sed nibh vel, mattis dictum mi. Nam dui sapien, malesuada a libero eu, tristique vehicula turpis. In hac habitasse platea dictumst.
+
+                Praesent bibendum arcu ac arcu condimentum accumsan. Fusce efficitur massa orci, vel lobortis neque mollis ac. Quisque quis placerat enim. Nulla ornare augue arcu, id ullamcorper quam ornare ac. In at lorem at dolor auctor ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec tempus efficitur hendrerit.</p>
+        </div>
+
     </div>
-    <!--<div id="footer">-->
-        <!--<p>&copy;2016 Varun Parthasarathy</p>-->
-    <!--</div>-->
+
 </div>
 
 

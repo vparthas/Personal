@@ -10,7 +10,7 @@
 
     function initHeader() {
 
-        width = window.innerWidth * .88;
+        width = window.innerWidth;
         height = window.innerHeight;
 
         size = width > height ? height : width;
