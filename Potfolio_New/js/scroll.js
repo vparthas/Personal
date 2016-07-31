@@ -4,7 +4,7 @@ $(document).ready(function(){
     {
         if($('#aboutDiv').height() < $(window).height())
         {
-            $('#aboutDiv').height($(window).height()) - $('#navBar').height()
+            $('#aboutDiv').height($(window).height() - $('#navBar').height())
             $('#contentDiv').css("padding-bottom", "0");
         }
 
