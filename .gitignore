@@ -42,3 +42,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 Potfolio_New/.idea/workspace.xml
+*.scssc
+.idea/watcherTasks.xml
+.idea/watcherTasks.xml
